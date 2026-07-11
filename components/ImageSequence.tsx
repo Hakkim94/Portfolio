@@ -116,7 +116,7 @@ export default function ImageSequence() {
               <span className="text-white">HAKKIM</span>
               <br />
               <span className="bg-gradient-to-r from-yellow-400 via-yellow-500 to-orange-400 bg-clip-text text-transparent">
-                MÜBARAK
+                MUBARAK
               </span>
             </h1>
             <p
