@@ -116,7 +116,7 @@ export default function ImageSequence() {
               <span className="text-white">HAKKIM</span>
               <br />
               <span className="bg-gradient-to-r from-yellow-400 via-yellow-500 to-orange-400 bg-clip-text text-transparent">
-                MUBARAK
+                MÜBARAK
               </span>
             </h1>
             <p
@@ -129,9 +129,9 @@ export default function ImageSequence() {
 
           <div ref={photoRef} className="flex-1 flex justify-center items-center">
             <div className="relative">
-              <div className="w-[280px] h-[280px] sm:w-[330px] sm:h-[330px] md:w-[380px] md:h-[380px] lg:w-[450px] lg:h-[450px] xl:w-[500px] xl:h-[500px] rounded-full overflow-hidden border-4 border-white/10 shadow-2xl shadow-yellow-500/20">
+              <div className="w-[280px] h-[280px] sm:w-[330px] sm:h-[330px] md:w-[380px] md:h-[380px] lg:w-[450px] lg:h-[450px] xl:w-[500px] xl:h-[500px] rounded-full overflow-hidden border-4 border-white/10 shadow-2xl shadow-yellow-500/20 bg-white/5">
                 <img
-                  src={`${basePath}/hakkim-profile.jpeg`}
+                  src={process.env.NODE_ENV === 'production' ? '/Portfolio/profile.jpg' : '/profile.jpg'}
                   alt="Hakkim Mubarak"
                   className="w-full h-full object-cover"
                   style={{ objectPosition: 'center 55%' }}
