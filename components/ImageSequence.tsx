@@ -116,7 +116,7 @@ export default function ImageSequence() {
               <span className="text-white">HAKKIM</span>
               <br />
               <span className="bg-gradient-to-r from-yellow-400 via-yellow-500 to-orange-400 bg-clip-text text-transparent">
-                MÜBARAK
+                MUBARAK
               </span>
             </h1>
             <p
@@ -134,7 +134,7 @@ export default function ImageSequence() {
                   src={process.env.NODE_ENV === 'production' ? '/Portfolio/profile.jpg' : '/profile.jpg'}
                   alt="Hakkim Mubarak"
                   className="w-full h-full object-cover"
-                  style={{ objectPosition: 'center 55%' }}
+                  style={{ objectPosition: 'center 5%' }}
                 />
               </div>
               <div className="absolute inset-[-8px] sm:inset-[-10px] lg:inset-[-12px] rounded-full border border-yellow-500/20" />
