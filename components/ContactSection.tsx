@@ -62,7 +62,7 @@ const contactLinks = [
   {
     id: "resume",
     label: "Resume",
-    href: "/Resume/Hakkim_Mubarak_Resume.pdf",
+    href: "public/Resume/Hakkim_Mubarak_Resume.pdf",
     icon: Icons.FileText,
     description: "Download my CV",
   },
