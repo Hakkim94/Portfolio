@@ -62,7 +62,7 @@ const contactLinks = [
   {
     id: "resume",
     label: "Resume",
-    href: "public/Resume/Hakkim_Mubarak_Resume.pdf",
+    href: "public/Resume/HAKKIM_MUBARAK_3.pdf",
     icon: Icons.FileText,
     description: "Download my CV",
   },
@@ -145,7 +145,7 @@ export default function ContactSection() {
       gsap.fromTo(
         headline,
         { opacity: 0, y: 80, filter: "blur(12px)" },
-        {
+        {public/Resume/HAKKIM_MUBARAK_3.pdf
           opacity: 1,
           y: 0,
           filter: "blur(0px)",
