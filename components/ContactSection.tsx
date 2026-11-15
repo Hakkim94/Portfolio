@@ -55,14 +55,14 @@ const contactLinks = [
   {
     id: "linkedin",
     label: "LinkedIn",
-    href: "https://www.linkedin.com/in/hakkim-mubarak-41415024a ",
+    href: "https://www.linkedin.com/in/hakkim-mubarak-41415024a",
     icon: Icons.Linkedin,
     description: "Connect professionally",
   },
   {
     id: "resume",
     label: "Resume",
-    href: "/Resume/HAKKIM_MUBARAK_3.pdf",
+    href: "/Portfolio/Resume/HAKKIM_MUBARAK_3.pdf",
     icon: Icons.FileText,
     description: "Download my CV",
   },
