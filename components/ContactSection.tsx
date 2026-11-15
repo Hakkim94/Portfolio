@@ -77,12 +77,13 @@ function ContactRow({
   const Icon = link.icon;
 
   return (
-    <a
-      href={link.href}
-      target="_blank"
-      rel="noopener noreferrer"
-      className="contact-row group relative block py-6 md:py-8 border-b border-white/5 transition-all duration-500 hover:border-white/20"
-    >
+   <a
+  href={link.href}
+  download={link.id === "resume" ? "HAKKIM_MUBARAK_3.pdf" : undefined}
+  target={link.id === "resume" ? undefined : "_blank"}
+  rel="noopener noreferrer"
+  className="contact-row group relative block py-6 md:py-8 border-b border-white/5 transition-all duration-500 hover:border-white/20"
+>
       <div className="flex items-center justify-between">
         <div className="flex items-center gap-6 md:gap-8">
           {/* Icon */}
