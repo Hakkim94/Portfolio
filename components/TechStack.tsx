@@ -13,6 +13,7 @@ const techCards = [
       "HTML",
       "CSS",
       "JavaScript",
+      "REACT"
      
     ],
   },
@@ -28,7 +29,7 @@ const techCards = [
     bg: "bg-white",
     text: "text-black",
     description: "Designing efficient relational databases.",
-    skills: ["SQL", "MySQL"],
+    skills: ["SQL", "MySQL","MONGO DB"],
   },
   {
     title: "Development",
@@ -42,7 +43,7 @@ const techCards = [
     bg: "bg-black",
     text: "text-white",
     description: "Deploying applications to production.",
-    skills: ["Docker", "Render"],
+    skills: ["Docker", "Render", "Github Actions"],
   },
 ];
 
